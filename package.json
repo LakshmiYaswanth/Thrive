@@ -1,0 +1,35 @@
+{
+  "name": "thrive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "npx playwright show-report",
+    "debug": "npx playwright test --debug",
+    "testhtmlreport": "npx playwright test --reporter=html",
+    "test": "npx playwright test",
+    "test-us": "npx playwright test --update-snapshots",
+    "test:record": "npx playwright codegen",
+    "test:report": "allure serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.17.0",
+    "@types/adm-zip": "^0.4.34",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "axios": "^0.21.4",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "experimental-allure-playwright": "0.0.3",
+    "moment": "^2.29.1",
+    "playwright": "^1.17.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "faker": "^5.5.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "email": "qatesting+19@thrivetrm.com",
+    "password": "mail_123",
+    "clientDetails": {
+        "companyName": "pinecode1",
+        "jobTitle": "Software testing",
+        "placementType": {
+            "CPD": "Custom Placement Default",
+            "CP": "Custom Placement",
+            "PP": "Permanent Placement"
+        }
+    }
+}
