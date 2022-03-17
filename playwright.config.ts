@@ -34,7 +34,8 @@ const config: PlaywrightTestConfig = {
   ],
   testMatch: [
     //'tc001.test.ts',
-    'search.test.ts'
+    // 'search.test.ts',
+    'api.test.ts'
   ],
   //Reporters
   reporter: [[`list`], ["dot"],
