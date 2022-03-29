@@ -4,12 +4,12 @@
 
 const env = "externalexec";
 const DEBUG = true;
-
+const apiEnv = "api"
 export const environment = {
   DEBUG: DEBUG,
   environmentName: env.toUpperCase(),
   baseURL: "https://" + env + ".thrivetrm.party/",
-  apiUrl: "https://api.thrivetrm.party/api/v2/",
+  apiUrl: "https://" + apiEnv + ".thrivetrm.party/api/v2/",
   token: "fBs55CGgcRE4dTQX3bN4828z",
   email: "qatesting+19@thrivetrm.com",
   password: "mail_123",
